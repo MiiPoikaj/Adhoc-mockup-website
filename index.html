@@ -12,7 +12,8 @@
 <body>
   <!-- Navbar Component -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img src="Resources/Images/logo.png" alt="adhoc logo"></a>  
+      
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,71 +21,78 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#">About us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#">Our team</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+        </li>
+        
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
     </div>
   </nav>
 
   <!-- Jumbotron -->
-  <div style="background:url(https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png) no-repeat; background-size: cover;">
-   
+  <div class="jumbotron jumbotron-fluid">
+    <div class="bg-secondary my-5">
+        <h1 class="display-3 text-center text-white">Administration made easy</h1>
+        <p class="text-white text-center">Adhoc is an on-deman administrative service for your company growth</p>
+    </div>
   </div>
 
   <!-- Container -->
   <div class="container">
     <!-- Quote Section -->
     <div class="row">
-      <div class="col">
-        <h2>"Thanks to Adhoc we now have beautiful and faithful service every
+      <div class="col my-5">
+        <h2 class="text-left font-italic font-weight-light">"Thanks to Adhoc we now have beautiful and faithful service every
           day. Our customers are happy and engagement has drastically increased. Highly recommend!"</h2>
-        <p>-Dave Ellavar, <span>Academy of Code</span></p>
+        <p class="text-right font-italic font-weight-bold">-Dave Ellavar, <span class="text-right font-italic font-weight-light">Academy of Code</span></p>
       </div>
     </div>
     <hr>
 
     <!-- Why Adhoc? Text -->
-    <div class="row">
+    <div class="row bx-5">
       <div class="col">
-        <h2>Why Adhoc?</h2>
+        <h2 class="display-4 text-center">Why Adhoc?</h2>
       </div>
     </div>
 
     <!-- Image Reasons Section -->
-    <div class="row">
-      <div class="col">
-        <!-- First card goes here -->
+    <div class="row justify-content-center row x-5">
+      <div class="col-8 col-md-4">
+        <div class="card border-0" style="width: 18rem;">
+          <img src="Resources/Images/experienced.png" class="card-img-top" alt="image with the text experienced">
+          <div class="card-body">
+            <p class="card-text text-center">Over 9000 happy clients, and we learn something new from each one.</p>
+          </div>
+        </div>
 
       </div>
 
-      <div class="col">
-        <!-- Second card goes here -->
+      <div class="col-8 col-md-4">
+        <div class="card border-0" style="width: 18rem;">
+          <img src="Resources/Images/fun.png" class="card-img-top" alt="image with the text experienced">
+          <div class="card-body">
+            <p class="card-text text-center">Administration? Fun? Yea. Somehow we make it happen.</p>
+          </div>
+        </div>
         
       </div>
 
-      <div class="col">
-        <!-- Third card goes here -->
+      <div class="col-8 col-md-4">
+        <div class="card border-0" style="width: 18rem;">
+          <img src="Resources/Images/smart.png" class="card-img-top" alt="image with the text experienced">
+          <div class="card-body">
+            <p class="card-text text-center">Innovative solutions to the trickes of everyday tasks.</p>
+          </div>
+        </div>
 
       </div>
     </div>
